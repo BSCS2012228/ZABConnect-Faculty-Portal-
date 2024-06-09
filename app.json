@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "ZABConnect - Faculty Portal",
+    "slug": "ZABConnectFaculty",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c54a3"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#0c54a3"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0c54a3"
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#0c54a3"
+      },
+      "package": "com.szabist.zabconnectfaculty"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#0c54a3"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "32806394-711f-490c-a2bf-5d5775ca83c2"
+      }
+    }
+  }
+}
